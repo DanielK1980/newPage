@@ -1,0 +1,19 @@
+{
+    "name": "vendor/calendar",
+    "description": "Description of project calendar.",
+    "authors": [
+        {
+            "name": "Daniel",
+            "email": "daniel.kaszyk@examlpe.com"
+        }
+    ],
+    "require": {
+    "nategood/httpful": "*",
+        "monolog/monolog": "^1.24"
+    },
+    "autoload":{
+        "psr-4":{
+            "src\\": "app/src"
+        }
+    }
+}
